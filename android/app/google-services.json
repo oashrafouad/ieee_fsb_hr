@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "654500904802",
+    "project_id": "ieee-fsb-hr-project",
+    "storage_bucket": "ieee-fsb-hr-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654500904802:android:291bb3d18d16d6a223f63b",
+        "android_client_info": {
+          "package_name": "com.yassermahmoud1.ieee_fsb_hr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654500904802-odudt3uu494vatcg235uh04n4ud9nqp6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yassermahmoud1.ieee_fsb_hr",
+            "certificate_hash": "1aecd07143d433315cb20b900f3009004301042e"
+          }
+        },
+        {
+          "client_id": "654500904802-p1lfra0p31r5p17v0md2ekrvilo59gfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVS0maQD7sq2GCWwMQtZVlI-AutauXY3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654500904802-p1lfra0p31r5p17v0md2ekrvilo59gfj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "654500904802-kgnbu2io4e5t15d3m3cdu1e1lcf17vf4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ieeeFsbHr"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
