@@ -3,9 +3,12 @@ workflows:
     scripts:
       - name: "Build iOS"
         script: |
+          flutter pub get
+          cd ios
+          pod install
           xcodebuild archive \
           -scheme "Runner" \
-          -workspace "ios/Runner.xcworkspace" \
+          -workspace "Runner.xcworkspace" \
           -archivePath archive.xcarchive \
           CODE_SIGN_IDENTITY="" \
           CODE_SIGNING_REQUIRED=NO
@@ -15,7 +18,7 @@ workflows:
           zip -r Payload.zip Payload
           mv Payload.zip Runner.ipa
     artifacts:
-      - /Users/builder/clone/archive.xcarchive/Products/Applications/*.ipa
+      - /Users/builder/clone/ios/archive.xcarchive/Products/Applications/*.ipa
     publishing:
       email:
         recipients:
